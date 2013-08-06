@@ -144,14 +144,14 @@ Rules for the team event will be conveyed after registration
 						<input type="text" name="ContactEmail" id="email" placeholder="Email" /> <?php if($isIe) { ?> <br><br> <?php } ?>						
 					
 					<h2 style="padding-top:5px;font-size:18px;margin-left:26px;">TT Singles Mens</h2>
-					<input  type="radio" name="tt_singles_men" value="Yes">Yes<br>
-					<input  type="radio" name="tt_singles_men" value="No">No
-					
+                    <label for="tt_singles_men"><input  type="radio" id="tt_singles_men" name="tt_singles_men" value="Yes">Yes</label>
+                    <label for="tt_singles_men2"><input  type="radio" id="tt_singles_men2" name="tt_singles_men" value="No">No</label>
+
 					<h2 style="padding-top:5px;font-size:18px;margin-left:26px;">TT Singles Womens</h2>
-					<input type="radio" name="tt_singles_women" value="Yes">Yes<br>
-					<input type="radio" name="tt_singles_women" value="No">No
-					
-					<h2 style="padding-top:5px;font-size:18px;margin-left:26px;">TT Team event</h2>
+                    <label for="tt_singles_women"><input  type="radio" id="tt_singles_women" name="tt_singles_women" value="Yes">Yes</label>
+                    <label for="tt_singles_women2"><input  type="radio" id="tt_singles_women2" name="tt_singles_women" value="No">No</label>
+
+					<h2 style="font-size: 18px;margin: 10px 26px;padding-top: 5px;">TT Team event</h2>
 					<?php if($isIe) { ?>
 					<p class="text" style="margin-bottom:21px;"> 
 					Your team name and team members - 5 in a team (3 boys, 2 girls)
